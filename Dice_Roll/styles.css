@@ -11,13 +11,13 @@
 }
 
 body {
-  background-color: #140f07;
+  background-image: linear-gradient(to right top, #0a2a43, #1b1e32, #1c1521, #150b12, #000000);
 }
 
 h1 {
   margin: 30px;
   font-family: 'Lobster', cursive;
-  text-shadow: 5px 0 #232931;
+  text-shadow: 2px 0 #232931;
   font-size: 8rem;
   color: #08ecff;
 }
