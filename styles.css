@@ -7,7 +7,8 @@
 
 body{
 	min-height: 1600px;
-	background: #0a2a43;
+	height: 100%;
+   background: #0a2a43;
 }
 .box:before{
 	content: ''; 
@@ -207,3 +208,30 @@ a{
    opacity: 1;
    transition: all 0.3s ease;
 }
+
+.footer{
+   background: #0a2a43;
+   color: #d3d3d3;
+   height: 100px;
+   position: relative;
+   top: 300px;
+}
+.footer .footer-content{
+   text-align: center;
+   padding-top: 45px;
+}
+.footer-content .fab{
+   padding-right: 6px;
+   padding-left: 6px;
+}
+/*.footer .footer-bottom{
+   background: #343a49;
+   color: #686868;
+   height: 50px;
+   width: 100%;
+   text-align: center;
+   position: absolute;
+   bottom: 0px;
+   left: 0px;
+   padding-top: : 20px;
+}*/
