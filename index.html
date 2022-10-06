@@ -1,90 +1,215 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<!-- icons -->
-	<script src="https://kit.fontawesome.com/a36dc8c261.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/fav.png" />
 
-	<!-- Favicons Section  -->
-	<link rel="icon"  href="images/fav.png"/>
-	
-	<!-- Bootstrap-CSS -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-	
-	<!-- CSS-File_linkup -->
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	
-	<title>
-		Xeno Home
-	</title>
+  <title>
+    Rajanyo Paul
+  </title>
+
+  <link rel="stylesheet" href="index.css" />
 </head>
+
+
 <body>
-	<!-- Bootstrap JS -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
-	<div class="box">
-		<img src="images/bg.jpg" id="big" class="jax">
-		<img src="images/moon.png" id="moon" class="jax">
-		<img src="images/mountain.png" id="mountain" class="jax">
-		<img src="images/road.png" id="road" class="jax">
-		<h3 id="ame" >Hi, Rajanyo here.</h3>
-	</div>
-	<!-- <section class="container">
-		<div class="card mb-3" style="max-width: 540px;">
-			<a href="https://www.google.com/">
-			<div class="row g-0">
-				<div class="col-md-4">
-					<img class="tiles" src="images/die.png" alt="...">
-				</div>
-				<div class="col">
-					<div class="card-body">
-						<h5 class="card-title">Card title</h5>
-						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-					</div>
-				</div>
-			</div>
-			</a>
-		</div>
-	</section> -->
-	<div>
-		<h1 style="margin-left: 2.5rem;margin-top: 2.5rem;  color: #fff;"> Projects</h1> 
-	</div>
-   
-   <div class="content">
-      
-      <div class="card">
-    		<div class="icon"><i class="fas icon fa-dice fa-lg"></i></div>
-            <p class="title"><a href="Dice_Roll/index.html"> Dice Roll </a></p>
-            <p class="text">Click to see the mini project.</p>
-         
-      </div>
-      <div class="card">
-         
-            <div class="icon"><i class="fas icon fa-drum fa-lg"></i></div>
-            <p class="title"><a href="Drum_Kit/index.html"> Mini Drum Kit</a></p>
-            <p class="text">Click to see the mini project.</p>
-         
-      </div>
-      <div class="card">
-            <div class="icon"><i>..........</i></div>
-            <p class="title"><a href="https://github.com/XENOX-GRIX/All-my-threeJS-projects">ThreeJS</a></p>
-            <p class="text">Link to ThreeJS github main branch .</p>
-         
-      </div>
-   </div>
-</div>
-	<div class="footer">
-		<div class="footer-content">
-			<h4></h4>
-			<a href="https://www.linkedin.com/in/rajanyo-paul-679227191/"><i style='font-size:34px' class='fab'>&#xf08c;</i></a>
-			<a href="https://github.com/XENOX-GRIX"><i style='font-size:34px' class='fab'>&#xf09b;</i></a>
-			
-		</div>
-		<div class="footer-section about" ></div>
-		<div class="footer-section links" ></div>
-		<div class="footer-section contact form" ></div>
-		<div class="footer-bottom" ></div>
-	</div>
+  <!-- ***** Header ***** -->
 
-	<script src="jav.js"></script>	
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#experiences" class="nav__link">Experience</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <canvas></canvas>
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <!-- Replace the following name with your name -->
+          <span>Hi <span class="wave"><img src="images/Hand.gif" width="55px"></span>, I'm Rajanyo Paul</span>
+        </span>
+        </h1>
+        <!-- Put a small paragraph about yourself -->
+        <p></p>
+        <a href="#contact" class="btn btn--transparent">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+    <section class="experience" id="experiences">
+      <div class="row">
+        <h2>Experience</h2>
+        <div class="row">
+          <div class="experience tab-content">
+            <div class="row">
+              <div class="timeline">
+                <div class="row">
+                  <!-- time line items  -->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fas fa-briefcase icon"></i>
+                      <span>Aug, 2022 - <i>Present</i></span>
+                      <h3>Internship</h3>
+                      <h4>Alumnus Software Limited</h4>
+                      <p>Working in a 3 member team to improve codebase of Software in Java.</p>
+                    </div>
+                  </div>
+                  <!-- end  -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Projects</h2>
+        <div class="work__boxes">
+
+
+          <!-- <div class="work__box">
+            <div class="work__text">
+              <h3>Chat Application</h3>
+              <p>
+                A free Chat application for anyone to use for free.
+              </p>
+              <ul class="work__list">
+                <li>React</li>
+                <li>Node</li>
+                <li>MongoDB</li>
+                <li>Material UI</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
+            </div>
+          </div> -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Medstop Website</h3>
+              <p><i>
+                Simple Online Medicine Store. 
+              </i>
+              </p>
+              <ul class="work__list">
+                <li>React</li>
+                <li>Node</li>
+                <li>Mapbox GL</li>
+                <li>MongoDB</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="http://medstop.herokuapp.com/" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/medstop.png" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <a href="#" class="btn">My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <div class="about__text">
+              <!-- Replace the below paragraph with info about yourself -->
+              <p>
+                I am Currently in my final year of B.Tech in IT at University of Calcutta. I love solving problems and learning new Algorithms.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <a href="mailto:rajanyopaul@gmail.com" class="btn">rajanyopaul@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://github.com/XENOX-GRIX" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://leetcode.com/XENOX_GRIX/" title="Link to leetcode Profile">
+            <img src="./images/leet.svg" class="footer__social-image" alt="Codepen">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://www.linkedin.com/in/rajanyo-paul-679227191/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+      <p>
+        &copy; 2022 - Rajanyo Paul
+      </p>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+  <script src="./canvas.js"></script>
 </body>
+
 </html>
