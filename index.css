@@ -71,7 +71,23 @@ body {
     background: var(--black);
     overflow-x: hidden;
 }
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
+  
+.work__image2{
+    width: 25%;
+}
 canvas{
     position:absolute;
     top:0;
